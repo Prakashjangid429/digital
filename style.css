@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    background-color: rgb(108, 158, 158);
+    text-align: center;
+}
+.box{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0rem 0rem 1rem;
+    font-size: 4rem;
+    text-align: center;
+    background-color: gainsboro;
+
+}
+.container{
+    height: 70vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    width:19rem ;
+    height: 19rem;
+    gap: 0.5rem;
+}
+.reset{
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: rgb(31, 49, 50);
+}
+.winner{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    
+
+    
+}
+#new{
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: rgb(31, 49, 50);
+    font-size: larger;
+    
+}
+.hide{
+    
+    height: 40rem;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ 
+}
+.hidenow{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
